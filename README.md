@@ -7,7 +7,7 @@
 1. Спроектировано и реализовано DWH в Postgres:
     - stg
     - dds (Data Vault 2.0)
-    - cmd
+    - cdm
 2. Реализован пайплайн доставки данных из Kafka с обогащением данными из Redis с использованием Spark Structured Streaming в stg-слой хранилища PostgreSQL и отправки данных в Kafka для следующего сервиса
 2. Реализован пайплайн доставки данных из Kafka с использованием Spark Structured Streaming в dds-слой хранилища PostgreSQL (модель Data Vault 2.0) и отправки данных в Kafka для следующего сервиса
 3. Реализован пайплайн доставки данных из Kafka с использованием Spark Structured Streaming в cdm-слой хранилища PostgreSQL (2 витрины)
